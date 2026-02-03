@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student profile</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 175px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .container {
+            
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        td {
+            padding: 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Create file </h2>
+
+    <div class="container">
+        <form>
+            <table>
+                <tr>
+                    <td><b>First Name:</b></td>
+                    <td><input type="text" placeholder="first name" required></td>
+                </tr>
+
+                <tr>
+                    <td><b>Last Name:</b></td>
+                    <td><input type="text" placeholder="last name" required></td>
+                </tr>
+
+                 <tr>
+                    <td><b>Date of Birth:</b></td>
+                    <td><input type="date" required></td>
+                </tr>
+
+                 <tr>
+                    <td><b>Enter Age:</b></td>
+                    <td><input type="number" placeholder="Age" required></td>
+                </tr>
+
+                 <tr>
+                    <td><b>Gender :</b></td>
+                    <td><input type="radio"  name="a">Male
+                        <input type="radio"  name="a">Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b> Current Address: </b></td>
+                     <td><textarea rows="9" cols="40"></textarea></td>
+                </tr>
+                
+                <tr>
+                    <td><b> Permanent Address: </b></td>
+                     <td><textarea rows="9" cols="40"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit">create</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>
